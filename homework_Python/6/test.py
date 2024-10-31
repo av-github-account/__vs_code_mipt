@@ -10,7 +10,7 @@ class Book(BaseModel):
     categories: list[str]
     quantity: int = Field(ge=1)
 
-    def __hash__(self):
+    def __hash__(self): 
         return hash(self.title)
     
 
