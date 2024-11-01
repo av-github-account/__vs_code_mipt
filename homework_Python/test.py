@@ -1,3 +1,4 @@
+
 class Product:
     def __init__(self, name: str, price: float, stock: int) -> None:
         self.name = name
@@ -76,6 +77,7 @@ def main():
     o.calculate_total()
 
     s.list_products()
+
 
 if __name__ == "__main__":
     main()
