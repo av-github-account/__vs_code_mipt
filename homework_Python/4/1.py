@@ -53,9 +53,6 @@ class Store:
         return Order()            
 
 
-
-
-
 def main():
     s = Store('Склад №5')
 
